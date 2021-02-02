@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubbler+One&family=Hachi+Maru+Pop&family=Righteous&display=swap');
+body {
+  color: #d0e8f2;
+background-color: #252525;
+margin: 0px;
+text-align: center;
+font-family: 'Bubbler One', sans-serif;
+-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 2s; /* Firefox < 16 */
+      -ms-animation: fadein 2s; /* Internet Explorer */
+       -o-animation: fadein 2s; /* Opera < 12.1 */
+          animation: fadein 2s;
+
+}
+@keyframes fadein {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+h1{
+  font-family: 'Righteous', cursive;
+  font-size: 6.6rem;
+  line-height: 6.2rem;
+  color: #bee5d3;
+
+}
+hr{
+  border: none;
+  border-top: none;
+  border-bottom: none;
+  height: 0;
+  width: 0;
+  margin: 50px auto;
+
+}
+a{
+  text-decoration: none;
+  color: #64dfdf;
+  font-family: 'Hachi Maru Pop', cursive;
+}
+/*media in index dice here*/
+@media (max-width: 900px) {
+  #heading1{font-size: 3.6rem;}
+}
+
+/* classes for dice index here*/
+
+.container-fluid{
+  padding: 4% 14%;
+}
+
+.link{
+  margin: 40px auto;
+
+}
